@@ -91,7 +91,7 @@ A personal project alongside my studies and software development practice.
 
 I'm interested in collaborating on practical software, automation, and security learning projects.
 
-[![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=flat-square)](mailto:v.barbuta@outlook.com)
+[![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=flat-square)](mailto:victor.barbuta@outlook.com)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:victorbarbuta27@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tk_victorb)
 [![CodePen](https://img.shields.io/badge/CodePen-181717?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/vicuvi1)
