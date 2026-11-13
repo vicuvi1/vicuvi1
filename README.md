@@ -1,97 +1,109 @@
 <h1 align="center">Hi, I'm Victor Bărbuță 👋</h1>
 
 <p align="center">
-  <strong>Cybersecurity student · Linux enthusiast · Building practical software</strong>
+  <strong>Information Security student at UTM · I build security tools that catch real attacks</strong><br>
+  Looking for a <strong>SOC / Blue Team internship</strong> · Chișinău, Moldova · on-site, hybrid or remote
 </p>
 
 <p align="center">
-  <a href="https://utm.md/en/"><img src="https://img.shields.io/badge/UTM-Information%20Security-2563EB?style=flat-square" alt="Information Security student at UTM"></a>
-  <a href="https://tryhackme.com/"><img src="https://img.shields.io/badge/TryHackMe-Hands--on%20learning-212C42?style=flat-square&logo=tryhackme&logoColor=white" alt="Learning with TryHackMe"></a>
-  <a href="https://pwn.college/"><img src="https://img.shields.io/badge/pwn.college-Security%20labs-7C3AED?style=flat-square" alt="Learning with pwn.college"></a>
+  <a href="https://victor-barbuta.vercel.app"><img src="https://img.shields.io/badge/CV-victor--barbuta.vercel.app-5ce1e6?style=for-the-badge&logo=googlechrome&logoColor=black" alt="My CV website"></a>
+  <a href="mailto:victor.barbuta@outlook.com"><img src="https://img.shields.io/badge/Email-victor.barbuta%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email me"></a>
+  <a href="https://tryhackme.com/p/vicuvi1"><img src="https://img.shields.io/badge/TryHackMe-Top%203%25-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe: top 3%"></a>
+</p>
+
+<p align="center">
+  <a href="https://tryhackme.com/p/vicuvi1"><img src="https://tryhackme-badges.s3.amazonaws.com/vicuvi1.png" alt="TryHackMe badge" height="88"></a>
 </p>
 
 ---
 
-I'm an **Information Security / Cybersecurity student at the Technical University of Moldova (UTM)**. I'm building a foundation in Linux, networking, programming, and security through coursework, hands-on labs, and personal projects.
+## 🛡️ Security tools I built
 
-I enjoy understanding how systems work, automating repetitive tasks, and turning ideas into useful software.
+Every tool below works today, has tests and CI, and three of them run live in your browser.
 
-## 🔐 What I'm working on
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **Security fundamentals:** practicing with TryHackMe and pwn.college, and connecting lab exercises to the concepts behind them.
-- **Linux:** getting comfortable with the command line, permissions, processes, and virtual lab environments.
-- **Programming:** strengthening my C, C++, Python, and SQL foundations while building web applications.
-- **AI-assisted development:** exploring AI tools for prototyping, debugging, and automation, with an emphasis on understanding, reviewing, and testing the result.
+### [🎣 PhishLens](https://github.com/vicuvi1/phishlens)
+**Phishing email analyzer.** Drop a suspicious email and see in one second *why* it's phishing: SPF/DKIM/DMARC, look-alike domains, QR-code phishing, macros, HTML smuggling, mapped to MITRE ATT&CK. Runs 100% in the browser.
 
-## 🛠 Projects
+<a href="https://vicuvi1.github.io/phishlens/"><img src="https://raw.githubusercontent.com/vicuvi1/phishlens/main/docs/demo.gif" alt="PhishLens demo"></a>
 
-### [Interview Scheduler Pro](https://github.com/vicuvi1/interview_manager)
+**[▶ Live demo](https://vicuvi1.github.io/phishlens/)** · JavaScript · zero dependencies · 24 tests
 
-An interview scheduling web app with candidate and admin workspaces, timezone-aware booking, and calendar integrations.
+</td>
+<td width="50%" valign="top">
 
-![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-216E4E?style=flat-square&logo=supabase&logoColor=white)
+### [🪟 WinTrace](https://github.com/vicuvi1/wintrace)
+**Windows event log attack hunter.** My own EVTX parser plus 30+ detections: brute force, Kerberoasting, pass-the-hash, Mimikatz, DCSync, log clearing, turned into a plain-English attack story.
 
-### Hermes Helper
+<a href="https://vicuvi1.github.io/wintrace/"><img src="https://raw.githubusercontent.com/vicuvi1/wintrace/main/docs/demo.gif" alt="WinTrace demo"></a>
 
-A personal project alongside my studies and software development practice.
+**[▶ Live demo](https://vicuvi1.github.io/wintrace/)** · JavaScript · EVTX · Active Directory · 17 tests
 
-[Explore my repositories →](https://github.com/vicuvi1?tab=repositories)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## 💻 Technologies I'm using and learning
+### [🔎 SiteSentry](https://github.com/vicuvi1/SiteSentry)
+**Passive website security scanner.** Grades HTTPS, TLS, headers, cookies, CORS and SPF/DMARC from A+ to F and writes the fix. I used it on 100 popular websites: **only 31% earn an A**.
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white)
+<a href="https://vicuvi1.github.io/SiteSentry/"><img src="https://raw.githubusercontent.com/vicuvi1/SiteSentry/main/docs/img/report-dark.png" alt="SiteSentry report"></a>
+
+**[▶ Project page & research](https://vicuvi1.github.io/SiteSentry/)** · Python · 103 tests · CI gate
+
+</td>
+<td width="50%" valign="top">
+
+### [🍯 HiveWatch SOC](https://github.com/vicuvi1/hivewatch-soc)
+**Honeypot-driven mini SOC.** SSH, Telnet, HTTP and TCP honeypots, 11 streaming detection rules, 25 ATT&CK techniques, threat-actor profiles that replay captured shell sessions, all on a live 3D attack map.
+
+<a href="https://github.com/vicuvi1/hivewatch-soc"><img src="https://raw.githubusercontent.com/vicuvi1/hivewatch-soc/main/docs/demo.gif" alt="HiveWatch demo (demo mode, simulated attacks)"></a>
+
+Python · FastAPI · Docker · 26 tests
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [📜 SOC Log & Traffic Analyzer](https://github.com/vicuvi1/analyzing-logs-traffic-Defensive-SOC-)
+**Log triage platform.** Apache/Nginx, syslog and PCAP → Sigma-style YAML detections mapped to ATT&CK → AbuseIPDB enrichment → SOAR containment playbooks (generated, never auto-run) and case management. Python · Streamlit.
+
+</td>
+</tr>
+</table>
+
+## 🏆 Highlights
+
+- **TryHackMe top 3% worldwide**, 140+ rooms, SOC Level 1 path completed
+- **4th of 12 teams** at HackTrone, an international cybersecurity competition (team NAVI, Sep 2026)
+- **GigaHack 2026** red-team CTF: our team went from one web host to five domains; I kept the notes and timeline that became the report
+- **Registru Digital**: replaced a paper library register with a web app my mother uses every day
+- Off the keyboard: 3× national checkers champion of Moldova, black belt in Taekwondo
+
+## 💻 Tools & languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-8A6D00?style=flat-square&logo=javascript&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white) ![Kali Linux](https://img.shields.io/badge/Kali-557C94?style=flat-square&logo=kalilinux&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 <details>
-<summary><strong>Explore my languages, tools, and environments</strong></summary>
+<summary><strong>Other things I've built</strong></summary>
 
 <br>
 
-**Languages**
-
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-8A6D00?style=flat-square&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white)
-
-**Development tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-111827?style=flat-square&logo=nextdotjs&logoColor=white)
-
-**Systems and lab environments**
-
-![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white) ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=flat-square&logo=virtualbox&logoColor=white)
-
-</details>
-
-## 📊 GitHub activity
-
-<details open>
-<summary><strong>Stats, contribution streak, and top languages</strong></summary>
-
-<br>
-
-<p align="center">
-  <a href="https://github.com/vicuvi1?tab=overview">
-    <img src="https://github-stats-extended.vercel.app/api?username=vicuvi1&theme=github_dark&hide_border=true&show_icons=true&hide_rank=true" alt="Victor's public GitHub statistics" width="480">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/vicuvi1?tab=overview">
-    <img src="https://streak-stats.demolab.com/?user=vicuvi1&theme=github-dark-blue&hide_border=true" alt="Victor's GitHub contribution streak" width="480">
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/vicuvi1?tab=repositories">
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=vicuvi1&theme=github_dark&hide_border=true&layout=compact&langs_count=8" alt="Most-used languages in Victor's public repositories" width="400">
-  </a>
-</p>
-
-<sub>Language stats reflect repository code, not proficiency. Cards refresh through external services.</sub>
+- [Registru Digital](https://github.com/vicuvi1/mother_app_registru): library register web app with login, history and offline-safe saving
+- [Interview Scheduler Pro](https://github.com/vicuvi1/interview_manager): candidate/admin workspaces, timezone-aware booking, calendar integrations
+- [Life OS](https://github.com/vicuvi1/life_os): goals, tasks and habits dashboard (Next.js, TypeScript, Firebase)
 
 </details>
 
 ## 🤝 Connect
 
-I'm interested in collaborating on practical software, automation, and security learning projects.
-
+[![CV](https://img.shields.io/badge/CV-victor--barbuta.vercel.app-5ce1e6?style=flat-square)](https://victor-barbuta.vercel.app)
 [![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=flat-square)](mailto:victor.barbuta@outlook.com)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:victorbarbuta27@gmail.com)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/vicuvi1)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/tk_victorb)
 [![CodePen](https://img.shields.io/badge/CodePen-181717?style=flat-square&logo=codepen&logoColor=white)](https://codepen.io/vicuvi1)
